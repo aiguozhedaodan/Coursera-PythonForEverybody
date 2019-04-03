@@ -11,18 +11,18 @@ You do not need to save these files to your folder since your program will read 
 The file is a table of names and comment counts. You can ignore most of the data in the file except for lines like the following:
 
 ><tr><td>Modu</td><td><span class="comments">90</span></td></tr>
-<tr><td>Kenzie</td><td><span class="comments">88</span></td></tr>
-<tr><td>Hubert</td><td><span class="comments">87</span></td></tr>  
+><tr><td>Kenzie</td><td><span class="comments">88</span></td></tr>
+>tr><td>Hubert</td><td><span class="comments">87</span></td></tr>
 
 You are to find all the <span> tags in the file and pull out the numbers from the tag and sum the numbers.
 Look at the sample code provided. It shows how to find all of a certain kind of tag, loop through the tags and extract the various aspects of the tags.
 
 ...
-Retrieve all of the anchor tags
+Retrieve all of the anchor tags<br/>
 
-tags = soup('a')
+tags = soup('a')<br/>
 
-for tag in tags:
+for tag in tags:<br/>
 
    # Look at the parts of a tag <br/>
    print 'TAG:',tag <br/>
