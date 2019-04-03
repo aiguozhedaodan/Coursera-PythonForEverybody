@@ -9,7 +9,7 @@ We provide two files for this assignment. One is a sample file where we give you
 You do not need to save these files to your folder since your program will read the data directly from the URL. Note: Each student will have a distinct data url for the assignment - so only use your own data url for analysis.<br/>
 ## Data Format
 The file is a table of names and comment counts. You can ignore most of the data in the file except for lines like the following:<br/>
-```html
+
 ><tr><td>Modu</td><td><span class="comments">90</span></td></tr>
 ><tr><td>Kenzie</td><td><span class="comments">88</span></td></tr>
 >tr><td>Hubert</td><td><span class="comments">87</span></td></tr>
