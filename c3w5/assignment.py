@@ -13,10 +13,9 @@ data = xml.read() #If without this line, it will shows:TypeError: a bytes-like o
 stuff = ET.fromstring(data)
 lst = stuff.findall('comments/comment')
 print('Count:', len(lst))
+
 all = 0
-number = 0
 for item in lst:
-    print(item.find('count').text)
-    #number = item.find('count').text)
-    all = all + int(number)
-print('Sum:',sum)
+    value = item.find('count').text
+    all = all + int(value)
+print(all)
