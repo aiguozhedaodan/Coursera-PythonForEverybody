@@ -13,6 +13,6 @@ print('Retrieving', url)
 data = urllib.request.urlopen(url)
 info = data.read().decode() # read data and decode
 js = json.loads(info) # make for json format
-print('Retrieved', len(info),'characters')  #test data is 3928 ,but this result of running is 2015
+print('Retrieved', len(info),'characters')  #test data is 3928 ,but this running result of test data is 2015
 print('Place id',js['results'][0]['place_id'])
 # print('Place id',js['results']['place_id']) is wrong beacuse "list indices must be integers or slices, not str"
