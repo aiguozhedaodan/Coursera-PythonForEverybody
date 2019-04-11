@@ -41,8 +41,8 @@ SELECT Track.title, Artist.name, Album.title, Genre.name
     ORDER BY Artist.name LIMIT 3
 ```
 The expected result of the modified query on your database is: (shown here as a simple HTML table with titles)  
-| Track | Artist | Album | Genre |
-| ------ | ------ | ------ | ------ |
-| Chase the Ace	 | AC/DC | Who Made Who	 | Rock |
-| D.T. | AC/DC | Who Made Who | Rock |
-| For Those About To Rock (We Salute You) | AC/DC | Who Made Who | Rock |
+| Track                                   | Artist | Album        | Genre |
+|-----------------------------------------|--------|--------------|-------|
+| Chase the Ace                           | AC/DC  | Who Made Who | Rock  |
+| D.T.                                    | AC/DC  | Who Made Who | Rock  |
+| For Those About To Rock (We Salute You) | AC/DC  | Who Made Who | Rock  |
