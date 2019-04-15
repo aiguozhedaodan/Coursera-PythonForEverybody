@@ -40,3 +40,13 @@ Answer: It makes sure that if a particular title is already in the table, there 
 
 9.What do we generally avoid in a many-to-many junction table?
 Answer: An AUTOINCREMENT primary key column and A logical key
+
+10.For the following Python code to work, what must be added to the title column in the CREATE TABLE statement for the Course table:
+```html
+cur.execute('''INSERT OR IGNORE INTO Course (title)
+    VALUES ( ? )''', ( title, ) )
+cur.execute('SELECT id FROM Course WHERE title = ? ',
+    (title, ))
+course_id = cur.fetchone()[0]
+```
+Answer: A UNIQUE constraint
