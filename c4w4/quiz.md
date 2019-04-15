@@ -39,4 +39,4 @@ INSERT OR IGNORE INTO Course (title) VALUES ( ? )
 Answer: It makes sure that if a particular title is already in the table, there are no duplicate rows inserted
 
 9.What do we generally avoid in a many-to-many junction table?
-Answer: 
+Answer: An AUTOINCREMENT primary key column and A logical key
