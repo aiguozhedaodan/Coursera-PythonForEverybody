@@ -16,6 +16,6 @@
 
 ### 3.A screen shot of time line visualization for the messages you have retrieved.
 ![Q3](https://raw.githubusercontent.com/aiguozhedaodan/Coursera-PythonForEverybody/master/c5w4%26c5w6/7.png)
-### Optional Challenge:
+### 4.Optional Challenge:
 Change the gline.py program to show the message count by year instead of by month and take a screen shot of the by year visualization. You can switch from a by-month to a by-year visualization by changing only a few lines in gline.py. The puzzle is to figure out the smallest change to accomplish the change. If you do not want to do this optional challenge - just upload the above image a second time.
 ![Q4](https://raw.githubusercontent.com/aiguozhedaodan/Coursera-PythonForEverybody/master/c5w4%26c5w6/8.png)
